@@ -1,0 +1,155 @@
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+section{
+  display: flex;
+  width: auto;
+  margin: auto 0%;
+}
+header{
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 20px 12.5%;
+  display: flex;
+  justify-content: space-between;
+}
+span{
+  display: flex;
+  column-gap: 20px;
+}
+a{
+  color: #f9faf8;
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+#header-logo{
+  font-size: 24px;
+}
+#hero-content{
+  justify-content: center;
+  background-color: #1f2937;
+}
+#hero{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 80px 0;
+  width: 75%;
+  column-gap: 30px;
+}
+#content{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+#img-div{
+  width: 50%;
+}
+#main-text{
+  font-size: 48px;
+  font-weight: extrabold;
+  color: #f9faf8;
+  margin: 0;
+}
+#secondary-text{
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0;
+}
+#info{
+  flex-direction: column;
+  margin-bottom: 150px;
+}
+#info-header{
+  font-size: 36px;
+  font-weight: extrabold;
+  color: #1f2937;
+  text-align: center;
+}
+#random-info{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+.img-card{
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  width: auto;
+}
+.img-card img{
+  border: 2px solid #3882f6;
+  border-radius: 10px;
+  width: 200px;
+  height: auto;
+
+}
+.btn{
+  background-color: #3882f6;
+  color: white;
+  border: 0px solid;
+  margin-top: 20px;
+  height: 30px;
+  width: 110px;
+  border-radius: 5px
+}
+#quote-section{
+  background-color: #e5e7eb;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+#quote{
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+#quote-text{
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+#author{
+  text-align: right;
+  font-weight: bold;
+}
+#call-to-action{
+  width: 75%;
+  display: flex;
+  background-color: #3882f6;
+  color: white;
+  height: 90px;
+  margin: 80px auto;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+.call-to-action{
+  border: 1px solid #fff;
+  margin: 0;
+}
+
+div p#text{
+  margin-top: 0;
+}
+div #heading{
+  font-weight: bold;
+  margin-bottom: 0;
+  font-size: 20px;
+} 
+footer{
+  background-color: #1f2937;
+  color: #F9FAF8;
+  text-align: center;
+  height: 50px;
+}
