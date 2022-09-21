@@ -80,6 +80,11 @@ img{
   justify-content: center;
   column-gap: 30px;
 }
+
+#info p{
+  color: #1f2937;
+}
+
 .img-card{
   display: flex;
   flex-direction: column;
